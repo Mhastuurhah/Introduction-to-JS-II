@@ -1,9 +1,11 @@
+// Try Catch Exception 
 try {
     var num1 = parseFloat(prompt("Enter the first number: "));
     if (typeof num1 !== 'number' || Number.isNaN(num1)) throw "Enter a valid number";
     var num2 = parseFloat(prompt("Enter the second number: "));
     if (typeof num2 !== 'number' || Number.isNaN(num2)) throw "Enter a valid number";
     var operator = prompt("Enter an operator (+, -, *, /, %): ");
+    // Switch statement
     switch (operator) {
         case '+':
             result = num1 + num2;
